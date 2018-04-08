@@ -14,6 +14,9 @@
 		0C5F89A4207963700052DDE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F89A2207963700052DDE2 /* LaunchScreen.storyboard */; };
 		0C5F89AF207963710052DDE2 /* LazyChefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F89AE207963710052DDE2 /* LazyChefTests.swift */; };
 		0C5F89BA207963710052DDE2 /* LazyChefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F89B9207963710052DDE2 /* LazyChefUITests.swift */; };
+		D3F641C2207A23ED0079DDAB /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F641C1207A23ED0079DDAB /* CheckBox.swift */; };
+		D3F641C4207A24E60079DDAB /* IngredientsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F641C3207A24E60079DDAB /* IngredientsTableView.swift */; };
+		D3F641C8207A26210079DDAB /* IngredientList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F641C7207A26210079DDAB /* IngredientList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		0C5F89B5207963710052DDE2 /* LazyChefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazyChefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C5F89B9207963710052DDE2 /* LazyChefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyChefUITests.swift; sourceTree = "<group>"; };
 		0C5F89BB207963710052DDE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3F641C1207A23ED0079DDAB /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		D3F641C3207A24E60079DDAB /* IngredientsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsTableView.swift; sourceTree = "<group>"; };
+		D3F641C7207A26210079DDAB /* IngredientList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 		0C5F8998207963700052DDE2 /* LazyChef */ = {
 			isa = PBXGroup;
 			children = (
+				D3F641C7207A26210079DDAB /* IngredientList.swift */,
 				0C5F8999207963700052DDE2 /* AppDelegate.swift */,
 				0C5F899B207963700052DDE2 /* ViewController.swift */,
 				0C5F899D207963700052DDE2 /* Main.storyboard */,
+				D3F641C3207A24E60079DDAB /* IngredientsTableView.swift */,
+				D3F641C1207A23ED0079DDAB /* CheckBox.swift */,
 				0C5F89A0207963700052DDE2 /* Assets.xcassets */,
 				0C5F89A2207963700052DDE2 /* LaunchScreen.storyboard */,
 				0C5F89A5207963700052DDE2 /* Info.plist */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3F641C4207A24E60079DDAB /* IngredientsTableView.swift in Sources */,
+				D3F641C8207A26210079DDAB /* IngredientList.swift in Sources */,
 				0C5F899C207963700052DDE2 /* ViewController.swift in Sources */,
 				0C5F899A207963700052DDE2 /* AppDelegate.swift in Sources */,
+				D3F641C2207A23ED0079DDAB /* CheckBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
