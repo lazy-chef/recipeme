@@ -14,6 +14,7 @@
 		0C5F89A4207963700052DDE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F89A2207963700052DDE2 /* LaunchScreen.storyboard */; };
 		0C5F89AF207963710052DDE2 /* LazyChefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F89AE207963710052DDE2 /* LazyChefTests.swift */; };
 		0C5F89BA207963710052DDE2 /* LazyChefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F89B9207963710052DDE2 /* LazyChefUITests.swift */; };
+		0C5F89CA2079F2410052DDE2 /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F89C92079F2410052DDE2 /* Recipes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0C5F89B5207963710052DDE2 /* LazyChefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazyChefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C5F89B9207963710052DDE2 /* LazyChefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyChefUITests.swift; sourceTree = "<group>"; };
 		0C5F89BB207963710052DDE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C5F89C92079F2410052DDE2 /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				0C5F8999207963700052DDE2 /* AppDelegate.swift */,
 				0C5F899B207963700052DDE2 /* ViewController.swift */,
+				0C5F89C92079F2410052DDE2 /* Recipes.swift */,
 				0C5F899D207963700052DDE2 /* Main.storyboard */,
 				0C5F89A0207963700052DDE2 /* Assets.xcassets */,
 				0C5F89A2207963700052DDE2 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C5F899C207963700052DDE2 /* ViewController.swift in Sources */,
+				0C5F89CA2079F2410052DDE2 /* Recipes.swift in Sources */,
 				0C5F899A207963700052DDE2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
